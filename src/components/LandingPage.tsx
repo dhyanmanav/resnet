@@ -12,11 +12,15 @@ export function LandingPage({ onGetStarted }: LandingPageProps) {
       <nav className="border-b bg-white/80 backdrop-blur-sm fixed w-full z-50">
         <div className="container mx-auto px-6 py-4 flex items-center justify-between">
           <div className="flex flex-col">
-            <div className="flex items-center gap-2">
-              <Network className="w-8 h-8 text-purple-600" />
+            <div className="flex items-center gap-3">
+              <img
+                src="ResNet.png"
+                alt="ResNet Logo"
+                className="w-12 h-12 object-contain -mt-1"
+              />
               <span className="text-2xl text-purple-900">ResNet</span>
             </div>
-            <span className="text-xs text-gray-600 ml-10">Global Academy of Technology</span>
+            <span className="text-xs text-gray-600 ml-14">Global Academy of Technology</span>
           </div>
           <div className="flex items-center gap-4">
             <Button variant="ghost" onClick={() => onGetStarted('student')}>
