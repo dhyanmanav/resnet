@@ -14,7 +14,7 @@ export function LandingPage({ onGetStarted }: LandingPageProps) {
           <div className="flex flex-col">
             <div className="flex items-center gap-3">
               <img
-                src="ResNet.png"
+                src="src\ResNet.png"
                 alt="ResNet Logo"
                 className="w-12 h-12 object-contain -mt-1"
               />
